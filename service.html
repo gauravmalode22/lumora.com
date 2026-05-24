@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Samsung Mega Menu</title>
+
+<style>
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background: #ffffff;
+}
+
+/* ================= NAVBAR ================= */
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 60px;
+  background: #fff;
+  border-bottom: 1px solid #e5e5e5;
+  position: relative;
+}
+
+.logo {
+  font-size: 26px;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+.menu {
+  list-style: none;
+  display: flex;
+  gap: 35px;
+}
+
+.menu li {
+  position: relative;
+}
+
+.menu a {
+  text-decoration: none;
+  color: #000;
+  font-size: 16px;
+  font-weight: 500;
+  padding: 10px 5px;
+  display: block;
+  transition: 0.3s;
+}
+
+.menu a:hover {
+  color: #007aff;
+}
+
+/* ================= MEGA MENU ================= */
+
+.mega-menu {
+  position: absolute;
+  left: 0;
+  top: 100%;
+  width: 100vw;
+  background: #f5f5f5;
+  padding: 50px 80px;
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(20px);
+  transition: all 0.3s ease;
+}
+
+/* Show dropdown on hover */
+.menu-item:hover .mega-menu {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
+}
+
+/* Grid Layout */
+.mega-grid {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 40px;
+  text-align: center;
+}
+
+/* Items */
+.mega-item img {
+  width: 100px;
+  margin-bottom: 12px;
+  transition: 0.3s ease;
+}
+
+.mega-item p {
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.mega-item:hover img {
+  transform: scale(1.1);
+}
+
+
+</style>
+</head>
+
+<body>
+
+<nav class="navbar">
+  <div class="logo">SAMSUNG</div>
+
+  <ul class="menu">
+    <li class="menu-item">
+      <a href="#">Shop</a>
+
+      <!-- Mega Dropdown -->
+      <div class="mega-menu">
+        <div class="mega-grid">
+
+          <div class="mega-item">
+            <img src="images/electronics banner.png" alt="">
+            <p>Galaxy S26 Ultra</p>
+          </div>
+
+          <div class="mega-item">
+            <img src="https://via.placeholder.com/100" alt="">
+            <p>Galaxy Z Fold7</p>
+          </div>
+
+          <div class="mega-item">
+            <img src="https://via.placeholder.com/100" alt="">
+            <p>Galaxy Tab S11</p>
+          </div>
+
+          <div class="mega-item">
+            <img src="https://via.placeholder.com/100" alt="">
+            <p>Galaxy Watch8</p>
+          </div>
+
+          <div class="mega-item">
+            <img src="https://via.placeholder.com/100" alt="">
+            <p>Galaxy Book5</p>
+          </div>
+
+          <div class="mega-item">
+            <img src="https://via.placeholder.com/100" alt="">
+            <p>Neo QLED 8K TV</p>
+          </div>
+
+          <div class="mega-item">
+            <img src="https://via.placeholder.com/100" alt="">
+            <p>OLED</p>
+          </div>
+
+          <div class="mega-item">
+            <img src="https://via.placeholder.com/100" alt="">
+            <p>The Frame</p>
+          </div>
+
+          <div class="mega-item">
+            <img src="https://via.placeholder.com/100" alt="">
+            <p>Q-Series Soundbar</p>
+          </div>
+
+          <div class="mega-item">
+            <img src="https://via+.placeholder.com/100" alt="">
+            <p>Odyssey OLED G9</p>
+          </div>
+
+        </div>
+      </div>
+    </li>
+
+    <li><a href="#">Mobile</a></li>
+    <li><a href="#">TV & AV</a></li>
+    <li><a href="#">Appliances</a></li>
+    <li><a href="#">Computers & Monitors</a></li>
+    <li><a href="#">Wearables</a></li>
+    <li><a href="#">Accessories</a></li>
+
+  </ul>
+</nav>
+
+</body>
+</html>

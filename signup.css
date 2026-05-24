@@ -1,0 +1,292 @@
+* {
+  margin: 0;
+  padding: 0; 
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+  
+}
+body,html{
+  height: 100vh;
+  width: 100%;
+  
+}
+.main_container{
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  background-color: #DDDFEE;
+}
+.left_container{
+  width: 48%;
+  height: 100%;
+  background-color: #a8bcbd;
+}
+
+.logo_and_form_container{
+  height: 100%;
+  width: 100%;
+  
+  
+}
+header{
+  height: 8%;
+  width: 100%;
+  padding: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color:#40415D;
+
+}
+/* .website_logo_container  */
+.website_logo_container{
+  height: 100%;
+  width: 20%;
+  display: flex;
+  margin-left: 2%;
+  align-items: center;
+  color: white; 
+}
+.website_logo{
+  height: 100%;
+  width: 20%;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+
+}
+.menu_container{
+  height: 80%;
+  width: 80%;   
+  display: flex;
+  gap: 30px;
+  margin-right: 2%;
+  align-items: center;
+  justify-content: right;
+}
+.menu_ancher{
+  color: white;
+  text-decoration: none;
+  font-size: 17px;
+  font-family: "Special Gothic", sans-serif;
+  
+}
+.website_name{
+  letter-spacing: 5px;
+  font-weight: 700;
+  font-family: "Betania Patmos In", cursive;
+  font-size: 27px;
+}
+.home{
+  height: 100%;
+  width: 80%;
+  border: solid ;
+}
+
+.webisite_logo_img{
+  height: 100%;
+  width: 100%;
+  border: 2px solid black;
+}
+.home_container{
+  height: 100%;
+  width: 50%;
+  padding: 0px 15px 0px 0px;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  align-items: center;    
+}
+.home{
+  text-decoration: none;
+  justify-content: end;
+  font-size: 17px;
+  align-items: center;
+  color: black;
+  display: flex;
+  padding-left: 3px;
+  padding-right: 20px;
+  justify-content: space-around;
+}
+.home_items{
+  height: 20%;
+  font-size: 15px;
+  display: flex;
+  justify-content: end;
+  text-decoration: none;
+  color: black;
+  font-weight: 700;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.home,.logo :hover{
+  color: rgb(106, 106, 178);
+  background-color: #f4eddb;
+  
+  border: none;
+  
+}
+.home_items:hover{
+  color: rgb(58, 58, 223);
+  
+}
+ /* navigation bar animation  */
+.create{
+  height: 20%;
+  width:100%; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+.account_container{
+  height: 29%;
+  width: 68%;
+  font-size: 26px;
+  font-weight: 600;
+  
+}
+/* frmo this part sign up page is start */
+.form_container{
+  height:68%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  
+}
+.form_content{
+  height: 70%;
+  width: 68%; 
+}
+label{
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.name_enter_box{
+  width:80%;
+  height: 8%;
+  border: none;
+  outline: none;
+  
+  font-size: 11.5px;
+  opacity: 100%;
+  padding: 0px 0px 0px 7px;
+  border-radius: 8px;
+}
+.name_enter_box:hover{
+  background-color:#c8d7e9;
+  color: white;
+}
+.e-mail_enter_box{
+  width:80%;
+  height: 8%;
+  border: none;
+  outline: none;
+  font-size: 11.5px;
+  padding: 0px 0px 0px 7px;
+  border-radius: 8px;
+}
+
+.password_enter_box{
+  width:80%;
+  height: 8%;
+  border: none;
+  outline: none;
+  font-size: 11.5px;
+  padding: 0px 0px 0px 7px;
+  border-radius: 8px;
+}
+.checkbox1{
+  height: 10px;
+}
+#terms_condition{
+  font-size: 10px;
+  font-weight: 600;
+}
+/* sign up button  */
+.form_container .submit_button {
+  height:9%;
+  display: flex;
+  align-items: center;  
+  justify-content: start;
+}
+button{
+  height: 92%;
+  width: 80%;
+  border: none;
+  cursor: pointer;
+  color: white;
+  background-color: #5b7493;
+  border-radius: 8px;
+ }
+.other_login_optons{
+  height: 50%;
+  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+  border: 2px solid;
+}
+/* right background image content */
+.right_container{
+  width: 52%;
+  height: 100%;
+  
+}
+.background_img_container{
+  height: 100%;
+  width: 53%;
+  border-radius: 3vw 0vw 0vw 3vw;
+  background-image: url(images/pexels-artbovich-6980568.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+/* responsive part */
+@media screen and (min-width: 375px) and (max-width: 600px)  {
+  .left_container{
+  width: 100%;
+  height:100%;
+  background-image: url(images/pexels-artbovich-6980568.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.right_container{
+  display: none;
+  
+}
+.background_img_container{
+  display: none;
+  
+}
+#terms_condition{
+  color: black
+}
+.form_content{
+  position: relative;
+  left: 10%;
+}
+.name_enter_box{
+  background-color:#c8d7e9;
+}
+.e-mail_enter_box{
+  background-color:#c8d7e9;
+}
+.password_enter_box{
+  background-color:#c8d7e9;
+}
+.account_container{
+  left:10%;
+}
+.create{
+  
+  align-items: center;
+  justify-content: center;
+}
+
+}
+
