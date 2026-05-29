@@ -240,14 +240,13 @@ header{
   padding: 0px 20px 0px 20px ;
   margin-top: 4%;
 }
-.smart_laight_background_banner{
+.smart_light_background_banner{
   height: 44%;
   background-image: url(assets/images/homepageimages/smart\ light\ background\ img.webp);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  border-radius: 25px;
-  
+  border-radius: 25px;  
 }
 .all_products{
   height: 10%;
@@ -640,21 +639,45 @@ header{
   /* container3 starts from here  */
   .container3 {
     display: block;
+    height: 100%;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: column;
   }
-  .container3_box1 .container3_box1
-   .container3_box1 {
+  .container3_box1, .container3_box2,
+   .container3_box3 {
     width: 100%;
-  
-    
+    height: 31%;  
    }
+   .cont3box{
+     font-size: 21px;     
+    }
    .second{
-    margin-top: 20%;
+    height: 100%;
+    margin-top: 3%;
+    padding: 0px;
    }
-   .smart_laight_background_banner{
-    position: relative;
-    margin-top: 20%;
+  .smart_light_background_banner{
+    width: 100%;  
+  }
+  .all_products{
     display: none;
-   }
+  }
+  .products{
+    display: flex;
+    flex-direction: column;
+  }
+  .product_box, .product_box2{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    
+  }
+  .product1{
+    width: 40%;
+  }
+  
+
 
 
 
