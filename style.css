@@ -110,7 +110,7 @@ header{
   height: 60%;
   width: 100%;
   border-radius: 25px;
-  background-image: url(assets/images/homepageimages/Gemini_Generated_Image_1g668a1g668a1g66.webp);
+  background-image: url(assets/images/homepageimages/Gemini_Generated_Image_1g668a1g668a1g66.jpg);
   background-position: center;
   background-color: rgb(13, 71, 71);
   margin-top: 1.3% ;
@@ -188,7 +188,7 @@ header{
 .container3_box1{
   height: 100%;
   width: 40%;
-  background-image: url(assets/images/homepageimages/smart_lock.webp);
+  background-image: url(assets/images/homepageimages/smart_lock.jpg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -215,7 +215,7 @@ header{
   height: 100%;
   width: 28%;
   border-radius: 25px;
-  background-image: url(assets/images/homepageimages/alexahome.webp);
+  background-image: url(assets/images/homepageimages/alexahome.jpg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -226,7 +226,7 @@ header{
   height: 100%;
   width: 28%;
   border-radius: 25px;
-  background-image: url(assets/images/homepageimages/smartlights.webp);
+  background-image: url(assets/images/homepageimages/smartlights.jpg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -242,7 +242,7 @@ header{
 }
 .smart_light_background_banner{
   height: 44%;
-  background-image: url(assets/images/homepageimages/smart\ light\ background\ img.webp);
+  background-image: url(assets/images/homepageimages/smart\ light\ background\ img.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -346,37 +346,37 @@ header{
 }
 /* for background image of product created a ID element shortcut */
 #product1_backimg1{
-  background-image: url(assets/images/homepageimages/smart\ light\ product.webp);
+  background-image: url(assets/images/homepageimages/smart\ light\ product.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 }
 #product1_backimg2{
-  background-image: url(assets/images/homepageimages/letlammProduct.webp);
+  background-image: url(assets/images/homepageimages/letlammProduct.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 }
 #product1_backimg3{
-  background-image: url(assets/images/homepageimages/wallpanelsimage.webp);
+  background-image: url(assets/images/homepageimages/wallpanelsimage.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 }
 #product1_backimg4{
-  background-image: url(assets/images/homepageimages/ceilingimageproduct.webp);
+  background-image: url(assets/images/homepageimages/ceilingimageproduct.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 }
 #product1_backimg5{
-  background-image: url(assets/images/homepageimages/switchproduct.webp);
+  background-image: url(assets/images/homepageimages/switchproduct.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 }
 #product1_backimg6{
-  background-image: url(assets/images/homepageimages/smartswitchproduct.webp);
+  background-image: url(assets/images/homepageimages/smartswitchproduct.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -391,7 +391,7 @@ header{
 }
 .smart_lock_background_banner{
   height: 44%;
-  background-image: url(assets/images/homepageimages/smartlock_productbanner\ .webp);
+  background-image: url(assets/images/homepageimages/smartlock_productbanner\ .jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -399,37 +399,37 @@ header{
 }
 /* thord page smart lock prosucts images here  */
 #product2_backimg1{
-  background-image: url(assets/images/homepageimages/keypadsmartdeadboldimg.webp);
+  background-image: url(assets/images/homepageimages/keypadsmartdeadboldimg.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 }
 #product2_backimg2{
-  background-image: url(assets/images/homepageimages/leverlockimage\ .webp);
+  background-image: url(assets/images/homepageimages/leverlockimage\ .jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 }
 #product2_backimg3{
-  background-image: url(assets/images/homepageimages/smartboltimage.webp);
+  background-image: url(assets/images/homepageimages/smartboltimage.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 }
 #product2_backimg4{
-  background-image: url(assets/images/homepageimages/biomatricfingerprintlockimg.webp);
+  background-image: url(assets/images/homepageimages/biomatricfingerprintlockimg.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 }
 #product2_backimg5{
-  background-image: url(assets/images/homepageimages/keypad_external\ accessory.webp);
+  background-image: url(assets/images/homepageimages/keypad_external\ accessory.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 }
 #product2_backimg6{
-  background-image: url(assets/images/homepageimages/wifilockimg.webp);
+  background-image: url(assets/images/homepageimages/wifi\ Smart\ Deadbolt.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -444,7 +444,7 @@ header{
 }
 .smart_sensor_background_banner{
   height: 44%;
-  background-image: url(assets/images/homepageimages/smart_sensor_back_banner.webp);
+  background-image: url(assets/images/homepageimages/smart_sensor_back_banner.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -452,37 +452,37 @@ header{
 }
  /* fouth sensor product images here  */
 #product3_backimg1{
-  background-image: url(assets/images/homepageimages/color_changing_smart_contact_sensor_img.webp);
+  background-image: url(assets/images/homepageimages/color_changing_smart_contact_sensor_img.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 }
 #product3_backimg2{
-  background-image: url(assets/images/homepageimages/recessedsensor_img.webp);
+  background-image: url(assets/images/homepageimages/recessedsensor_img.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 }
 #product3_backimg3{
-  background-image: url(assets/images/homepageimages/smart_vibration_and_open_sensor.webp);
+  background-image: url(assets/images/homepageimages/smart_vibration_and_open_sensor.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 }
 #product3_backimg4{
-  background-image: url(assets/images/homepageimages/Gate_sensorimg.webp);
+  background-image: url(assets/images/homepageimages/Gate_sensorimg.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 }
 #product3_backimg5{
-  background-image: url(assets/images/homepageimages/sire_and_hub_kit_image.webp);
+  background-image: url(assets/images/homepageimages/sire_and_hub_kit_image.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 }
 #product3_backimg6{
-  background-image: url(assets/images/homepageimages/smart\ multipack\ image\ .webp);
+  background-image: url(assets/images/homepageimages/smart\ multipack\ image\ .jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -670,11 +670,11 @@ header{
   .product_box, .product_box2{
     display: flex;
     flex-direction: column;
-    width: 100%;
-    
+    width: 100%;    
   }
   .product1{
     width: 40%;
+    height: 100%;
   }
   
 
